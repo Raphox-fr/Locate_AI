@@ -1,0 +1,24 @@
+# Ignore Python virtual environment
+env/
+venv/
+
+# macOS files
+.DS_Store
+# Backend environment files
+backend/.env
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore SQLite database
+*.sqlite
+
+# Node.js dependencies
+node_modules/
+
+# Logs and temporary files
+logs/
+*.log
+*.log.*

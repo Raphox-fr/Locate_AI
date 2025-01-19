@@ -1,0 +1,91 @@
+.Entire_page {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* Assure que la hauteur de la page occupe toute la fenêtre */
+	justify-content: space-between; /* Espace entre le contenu principal et les termes */
+	align-items: center;
+  }
+
+.container{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background:white;
+	border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: 50px;
+}
+
+
+.text {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+	margin-bottom: 30px;
+}
+
+.inputs{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0px;
+}
+
+.input{
+	gap: 5px;
+	padding: 20px;
+	border-radius: 8px;
+	background: white;
+}
+
+.input input{
+	padding: 15px;
+	border-radius: 8px;
+	width: 300px;
+	background: transparent;
+	border: none;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.submit-container button{
+    align-items: center;
+	font-size: 15px;
+    background: #000;
+    color: white;
+    padding: 12px;
+	padding-inline: 50px;
+    border-radius: 9px;
+    text-decoration: none;
+	width: 345px;
+	cursor: pointer;
+    /* font-weight: bold; */
+} 
+
+ .terms {
+	display: flex;
+    color: #aaa; /* Couleur discrète */
+}
+
+
+.links {
+    text-decoration: none;
+    color: #007bff;
+	
+}
+
+.links a{
+    text-decoration: none;
+    color: #007bff;
+	cursor: pointer;
+	
+}

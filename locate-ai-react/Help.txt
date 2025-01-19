@@ -1,0 +1,18 @@
+To lunch my FRONTEND :
+you do : 
+"cd Raphael_frontend"
+
+once you are in the directory :
+"source env/bin/activate"
+then :
+"python3 app.py"
+
+----------------------------------------------------------------
+
+To lunch my BACKEND :
+
+you do : 
+"cd Raphael_backend"
+once you are in the directory :
+"npm run dev"
+
