@@ -1,4 +1,4 @@
-To lunch my FRONTEND :
+To lunch my BACKEND :
 you do : 
 "cd Raphael_frontend"
 
@@ -9,7 +9,7 @@ then :
 
 ----------------------------------------------------------------
 
-To lunch my BACKEND :
+To lunch my FRONTEND :
 
 you do : 
 "cd Raphael_backend"
